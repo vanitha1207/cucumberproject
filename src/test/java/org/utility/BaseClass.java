@@ -333,6 +333,7 @@ public class BaseClass {
 	public static void selectByValue(WebElement element, String text) {
 		s = new Select(element);
 		s.selectByValue(text);
+		System.out.println("conflict");
 	}
 
 }
