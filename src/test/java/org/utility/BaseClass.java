@@ -330,5 +330,9 @@ public class BaseClass {
 		File des = new File("C:\\Users\\nnanb\\eclipse-workspace\\CucumberTask\\target\\screenshot" + name + ".jpg");
 		FileUtils.copyFile(src, des);
 	}
+	public static void selectByValue(WebElement element, String text) {
+		s = new Select(element);
+		s.selectByValue(text);
+	}
 
 }
