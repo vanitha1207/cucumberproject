@@ -334,6 +334,8 @@ public class BaseClass {
 		s = new Select(element);
 		s.selectByValue(text);
 		System.out.println("conflict");
+		System.out.println("changed");
+		
 	}
 
 }
